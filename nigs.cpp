@@ -36,7 +36,7 @@ void input_details(books details[6]) {
         }
         bool flag = false;
         do {
-            cout << "Genre (fiction/non fiction): ";
+            cout << "Genre (fiction/non-fiction): ";
             cin >> details[i].genre;
             if (details[i].genre == "fiction" || details[i].genre == "non-fiction") {
                 flag = true;
